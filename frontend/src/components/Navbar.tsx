@@ -1,8 +1,13 @@
 import React from "react";
 import Github from "../assets/github-mark.svg";
-const Navbar = () => {
+
+interface NavbarProps {
+  onNavigate?: () => Promise<void>;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ onNavigate }) => {
   return (
-    <div className="flex text flex-row font-saprona w-full justify-between items-center p-4">
+    <div className="flex text flex-row font-roobert w-full justify-between items-center p-4">
       <p className="flex flex-row items-center gap-2">
         <svg
           className="nav-logo__rotate colorMobile"

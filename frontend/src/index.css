@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "locomotive-scroll/dist/locomotive-scroll.css";
 
 #root {
   background-color: #ebebeb;
@@ -38,4 +39,14 @@
 
 .font-roobert {
   font-family: "Roobert", sans-serif;
+}
+
+/* Hide scrollbar for drag-to-scroll functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
