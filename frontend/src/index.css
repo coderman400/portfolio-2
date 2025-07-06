@@ -6,24 +6,36 @@
   background-color: #ebebeb;
   color: #1c1c1c;
 }
+
 @font-face {
-  font-family: "Dianora";
-  src: url("/Dianora.ttf") format("truetype");
+  font-family: "Roxborough Regular";
+  src: url("./assets/RoxboroughCF-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Saprona";
-  src: url("/Saprona-Regular.ttf") format("truetype");
+  font-family: "Roxborough Italic";
+  src: url("./assets/RoxboroughCF-RegularItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roobert";
+  src: url("./assets/Roobert-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
-.font-dianora {
-  font-family: "Dianora", sans-serif;
+.font-roxborough-regular {
+  font-family: "Roxborough Regular", sans-serif;
 }
 
-.font-saprona {
-  font-family: "Saprona", sans-serif;
+.font-roxborough-italic {
+  font-family: "Roxborough Italic", sans-serif;
+}
+
+.font-roobert {
+  font-family: "Roobert", sans-serif;
 }
